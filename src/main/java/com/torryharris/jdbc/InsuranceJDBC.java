@@ -105,12 +105,12 @@ public class InsuranceJDBC {
     }
 
     private static ArrayList<Insurance> getInsurance() {
-        Insurance ins1=new Insurance("HDFC",10023,3000000,"Health");
-        Insurance ins2=new Insurance("LIC",10024,4000000,"Term");
-        Insurance ins3=new Insurance("ICICI",10025,5000000,"Health");
-        Insurance ins4=new Insurance("AXIS",10026,6000000,"Term");
-        Insurance ins5=new Insurance("LIC",10027,1000000,"Term");
-        Insurance ins6=new Insurance("HDFC",10028,7000000,"Health");
+        Insurance ins1=new Insurance("HDFC",10023,300000,"Health");
+        Insurance ins2=new Insurance("LIC",10024,400000,"Term");
+        Insurance ins3=new Insurance("ICICI",10025,500000,"Health");
+        Insurance ins4=new Insurance("AXIS",10026,600000,"Term");
+        Insurance ins5=new Insurance("LIC",10027,100000,"Term");
+        Insurance ins6=new Insurance("HDFC",10028,700000,"Health");
         ArrayList<Insurance> insuranceArrayList=new ArrayList<>();
         insuranceArrayList.add(ins1);
         insuranceArrayList.add(ins2);
